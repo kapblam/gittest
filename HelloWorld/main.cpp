@@ -20,6 +20,7 @@ int main()
     cout << x+y << endl;
     cout << "Allie loves Nik?" << x << endl;
     cout << "Yes, she does!" << endl;
+    cout << "Nik likes sparkling water, Yaaaaasssss!" << endl;
 
     int z = 0;
     cout << z << endl;
