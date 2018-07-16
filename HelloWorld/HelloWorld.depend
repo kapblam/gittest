@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1531710508 source:c:\cbprojects\helloworld\main.cpp
+	<iostream>
+
+1531711265 source:c:\cbprojects\git\helloworld\main.cpp
+	<iostream>
+
