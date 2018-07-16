@@ -5,3 +5,14 @@
 1531711265 source:c:\cbprojects\git\helloworld\main.cpp
 	<iostream>
 
+1531714203 source:c:\cbprojects\git\gittest\helloworld\main.cpp
+	<iostream>
+	"add.h"
+
+1531712921 source:c:\cbprojects\git\gittest\helloworld\test.cpp
+	<iostream>
+
+1531713844 source:c:\cbprojects\git\gittest\helloworld\add.cpp
+
+1531714188 c:\cbprojects\git\gittest\helloworld\add.h
+
