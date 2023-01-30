@@ -1,18 +1,22 @@
 new channel1 broadcast enabled
 setup channel1 input "rtsp://admin:zaq1qaz@192.168.10.39:554//h264Preview_01_sub"
-setup channel1 output #duplicate{dst=mosaic-bridge{id=1,width=960,height=540},select=video,dst=bridge-out{id=11},select=audio}
+setup channel1 option dshow-size="640x480"
+setup channel1 output #duplicate{dst=mosaic-bridge{id=1,width=960,height=540},select=video,dst=bridge-out{id=11}}
 
 new channel2 broadcast enabled
 setup channel2 input "rtsp://admin:zaq1qaz@192.168.10.39:554//h264Preview_02_sub"
-setup channel2 output #duplicate{dst=mosaic-bridge{id=2,width=960,height=540},select=video,dst=bridge-out{id=12},select=audio}
+setup channel2 option dshow-size="640x480"
+setup channel2 output #duplicate{dst=mosaic-bridge{id=2,width=960,height=540},select=video,dst=bridge-out{id=12}}
 
 new channel3 broadcast enabled
 setup channel3 input "rtsp://admin:zaq1qaz@192.168.10.39:554//h264Preview_03_sub"
-setup channel3 output #duplicate{dst=mosaic-bridge{id=3,width=960,height=540},select=video,dst=bridge-out{id=13},select=audio}
+setup channel3 option dshow-size="640x480"
+setup channel3 output #duplicate{dst=mosaic-bridge{id=3,width=960,height=540},select=video,dst=bridge-out{id=13}}
 
 new channel4 broadcast enabled
 setup channel4 input "rtsp://admin:zaq1qaz@192.168.10.39:554//h264Preview_04_sub"
-setup channel4 output #duplicate{dst=mosaic-bridge{id=4,width=960,height=540},select=video,dst=bridge-out{id=14},select=audio}
+setup channel4 option dshow-size="640x480"
+setup channel4 output #duplicate{dst=mosaic-bridge{id=4,width=960,height=540},select=video,dst=bridge-out{id=14}}
 
 new mosaic broadcast enabled
 setup mosaic input "C:\Users\Nik\Downloads\d7W4Xn1-black-wallpaper-1080p.jpg"
